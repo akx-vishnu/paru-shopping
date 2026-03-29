@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Local Rice (Matta)",
+    "price": 55,
+    "category": "Groceries",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=300&q=80",
+    "description": "Premium quality Kerala Matta rice."
+  },
+  {
+    "id": 2,
+    "name": "Fresh Banana",
+    "price": 60,
+    "category": "Fruits & Vegetables",
+    "image": "https://images.unsplash.com/photo-1571771894821-ad9958a3f747?auto=format&fit=crop&w=300&q=80",
+    "description": "Sweet local variety bananas."
+  },
+  {
+    "id": 3,
+    "name": "Coconut Oil",
+    "price": 180,
+    "category": "Groceries",
+    "image": "https://images.unsplash.com/photo-1620980591763-7c593b45a005?auto=format&fit=crop&w=300&q=80",
+    "description": "Pure and natural coconut oil."
+  },
+  {
+    "id": 4,
+    "name": "Dishwash Liquid",
+    "price": 45,
+    "category": "Household Items",
+    "image": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?auto=format&fit=crop&w=300&q=80",
+    "description": "Strong grease-cutting formula."
+  },
+  {
+    "id": 5,
+    "name": "Soap Bar",
+    "price": 35,
+    "category": "Personal Care",
+    "image": "https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?auto=format&fit=crop&w=300&q=80",
+    "description": "Gentle on skin, moisturizing."
+  },
+  {
+    "id": 6,
+    "name": "Masala Tea",
+    "price": 120,
+    "category": "Snacks & Beverages",
+    "image": "https://images.unsplash.com/photo-1594631252845-29fc45862143?auto=format&fit=crop&w=300&q=80",
+    "description": "Authentic spice-infused tea."
+  }
+]
