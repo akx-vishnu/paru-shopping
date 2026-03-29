@@ -56,8 +56,8 @@ function App() {
                 <ul className="space-y-2 text-sm">
                   <li><a href="/contact" className="hover:text-primary transition">Terms & Conditions</a></li>
                   <li><a href="/contact" className="hover:text-primary transition">Privacy Policy</a></li>
-                  <li><a href="https://wa.me/919876543210" className="hover:text-primary transition">WhatsApp Order</a></li>
-                  <li><span className="text-gray-500">+91 98765 43210</span></li>
+                  <li><a href="https://wa.me/919004063606" className="hover:text-primary transition">WhatsApp Order</a></li>
+                  <li><span className="text-gray-500">+91 90040 63606</span></li>
                 </ul>
               </div>
             </div>
@@ -81,7 +81,7 @@ function App() {
                 <span className="text-2xl">🛒</span>
                 <span className="text-[10px] font-black tracking-tighter">CART</span>
              </button>
-             <a href="https://wa.me/919876543210" className="flex flex-col items-center space-y-1 text-gray-400 focus:text-green-500 transition">
+             <a href="https://wa.me/919004063606" className="flex flex-col items-center space-y-1 text-gray-400 focus:text-green-500 transition">
                 <span className="text-2xl">💬</span>
                 <span className="text-[10px] font-black tracking-tighter">HELP</span>
              </a>

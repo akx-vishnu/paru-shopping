@@ -18,7 +18,7 @@ export default function Cart() {
       .map((item) => `${item.name} (x${item.quantity}) - ₹${item.price * item.quantity}`)
       .join("%0A");
     const message = `*Order from Paru Shopping*%0A%0AName: ${formData.name}%0APhone: ${formData.phone}%0AAddress: ${formData.address}%0APayment: ${formData.payment}%0A%0A*Items:*%0A${items}%0A%0A*Total: ₹${total}*`;
-    window.open(`https://wa.me/919876543210?text=${message}`, "_blank");
+    window.open(`https://wa.me/919004063606?text=${message}`, "_blank");
   };
 
   if (cartItems.length === 0 && step !== 3) {
@@ -54,7 +54,7 @@ export default function Cart() {
           <div className="lg:col-span-2 space-y-6">
             <h1 className="text-4xl font-black text-gray-800 mb-8">My Shopping Bag</h1>
             {cartItems.map((item) => (
-              <div key={item.id} className="bg-white p-6 rounded-[2rem] shadow-xl border border-gray-50 flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 group">
+              <div key={item.id} className="bg-white p-4 sm:p-6 rounded-[2rem] shadow-xl border border-gray-50 flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8 group">
                 <img src={item.image} alt={item.name} className="w-32 h-32 object-cover rounded-2xl group-hover:scale-105 transition" />
                 <div className="flex-1 space-y-2 text-center sm:text-left">
                   <h3 className="text-2xl font-extrabold text-gray-800">{item.name}</h3>

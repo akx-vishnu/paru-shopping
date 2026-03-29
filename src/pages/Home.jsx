@@ -33,12 +33,12 @@ export default function Home() {
     <div className="space-y-14 pb-24">
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-secondary text-white rounded-2xl mx-4 mt-6 p-10 md:p-20 flex flex-col md:flex-row items-center justify-between shadow-2xl">
+      <section className="relative overflow-hidden bg-secondary text-white rounded-2xl mx-3 sm:mx-4 mt-4 sm:mt-6 p-6 sm:p-10 md:p-20 flex flex-col md:flex-row items-center justify-between shadow-2xl">
         <div className="z-10 space-y-6 max-w-xl text-center md:text-left">
           <div className="inline-block bg-primary/20 text-primary px-4 py-1 rounded-full text-sm font-bold tracking-wider mb-2">
             🏪 Your Local Store, Online
           </div>
-          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
             Shop Smart.<br /><span className="text-primary">Live Better.</span>
           </h1>
           <p className="text-lg md:text-xl font-medium opacity-80">
@@ -74,7 +74,7 @@ export default function Home() {
             View All <ChevronRight size={16} />
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
           {offers.map((offer, i) => (
             <div key={i} className={`bg-gradient-to-br ${offer.color} rounded-3xl p-8 text-white shadow-xl relative overflow-hidden hover:scale-[1.02] transition`}>
               <span className="absolute top-4 right-4 bg-white/20 text-white text-[10px] font-black tracking-widest px-3 py-1 rounded-full">{offer.badge}</span>
@@ -97,7 +97,7 @@ export default function Home() {
             View All <ChevronRight size={16} />
           </Link>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-5">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-5">
           {categories.map((cat) => (
             <Link
               key={cat.name}
@@ -119,7 +119,7 @@ export default function Home() {
             See All <ChevronRight size={16} />
           </Link>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
           {featured.map((product) => (
             <div key={product.id} className="bg-white rounded-3xl shadow-md overflow-hidden group hover:shadow-2xl transition flex flex-col">
               <div className="relative h-44 md:h-52">
@@ -173,7 +173,7 @@ export default function Home() {
             <p className="text-lg opacity-80 font-medium">Order easily on WhatsApp — quick, simple, and convenient.</p>
           </div>
           <a
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919004063606"
             target="_blank"
             rel="noopener noreferrer"
             className="z-10 flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg transition transform hover:scale-105 whitespace-nowrap"
@@ -186,12 +186,12 @@ export default function Home() {
 
       {/* Contact Quick Info */}
       <section className="px-6">
-        <div className="bg-gray-900 rounded-3xl p-10 text-white grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="bg-gray-900 rounded-3xl p-6 sm:p-10 text-white grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-10">
           <div className="flex items-center space-x-6">
             <div className="bg-primary/20 p-4 rounded-2xl"><Phone className="text-primary" size={32} /></div>
             <div>
               <p className="text-gray-400 text-sm font-medium">Quick Call</p>
-              <p className="text-xl font-bold">+91 98765 43210</p>
+              <p className="text-xl font-bold">+91 90040 63606</p>
             </div>
           </div>
           <div className="flex items-center space-x-6">

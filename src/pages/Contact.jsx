@@ -11,10 +11,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto p-6 md:p-12 min-h-screen space-y-24">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 md:p-12 min-h-screen space-y-16 md:space-y-24">
       {/* Hero Section */}
       <section className="text-center space-y-10 animate-in fade-in slide-in-from-top duration-700">
-        <h1 className="text-5xl md:text-8xl font-black text-gray-800 leading-tight">Get in Touch</h1>
+        <h1 className="text-4xl sm:text-6xl md:text-8xl font-black text-gray-800 leading-tight">Get in Touch</h1>
         <div className="bg-primary h-4 w-32 mx-auto rounded-full shadow-lg"></div>
         <p className="text-xl md:text-3xl text-gray-500 max-w-4xl mx-auto leading-relaxed font-medium">
           Have a question or feedback? We'd love to hear from you.
@@ -56,17 +56,17 @@ export default function Contact() {
               </div>
             </div>
 
-            <a href="tel:+919876543210" className="bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-50 space-y-6 group hover:shadow-2xl transition duration-500 transform hover:-translate-y-2 flex flex-col items-center sm:items-start text-center sm:text-left">
+            <a href="tel:+919004063606" className="bg-white p-8 sm:p-10 rounded-[2.5rem] shadow-xl border border-gray-50 space-y-6 group hover:shadow-2xl transition duration-500 transform hover:-translate-y-2 flex flex-col items-center sm:items-start text-center sm:text-left">
               <div className="bg-blue-100 w-20 h-20 rounded-3xl flex items-center justify-center text-blue-500 group-hover:rotate-12 transition">
                 <Phone size={40} strokeWidth={2.5} />
               </div>
               <div className="space-y-2">
                 <h4 className="text-2xl font-black text-gray-800">Phone</h4>
-                <p className="text-lg text-gray-500 font-bold leading-relaxed">+91 98765 43210</p>
+                <p className="text-lg text-gray-500 font-bold leading-relaxed">+91 90040 63606</p>
               </div>
             </a>
 
-            <a href="https://wa.me/919876543210" className="bg-white p-10 rounded-[2.5rem] shadow-xl border border-gray-50 space-y-6 group hover:shadow-2xl transition duration-500 transform hover:-translate-y-2 flex flex-col items-center sm:items-start text-center sm:text-left">
+            <a href="https://wa.me/919004063606" className="bg-white p-8 sm:p-10 rounded-[2.5rem] shadow-xl border border-gray-50 space-y-6 group hover:shadow-2xl transition duration-500 transform hover:-translate-y-2 flex flex-col items-center sm:items-start text-center sm:text-left">
               <div className="bg-green-100 w-20 h-20 rounded-3xl flex items-center justify-center text-green-500 group-hover:rotate-12 transition">
                 <MessageCircle size={40} strokeWidth={2.5} />
               </div>

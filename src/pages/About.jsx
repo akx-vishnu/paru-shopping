@@ -60,10 +60,10 @@ export default function About() {
             <p className="text-xl text-gray-400 font-medium">Our friendly team is always here for you.</p>
          </div>
          <div className="flex flex-wrap justify-center gap-6">
-            <a href="tel:+919876543210" className="bg-white text-gray-900 px-10 py-5 rounded-full font-black text-xl flex items-center space-x-4 shadow-xl hover:scale-105 transition active:scale-95">
+            <a href="tel:+919004063606" className="bg-white text-gray-900 px-10 py-5 rounded-full font-black text-xl flex items-center space-x-4 shadow-xl hover:scale-105 transition active:scale-95">
                <Phone className="text-primary" /> <span>Call Now</span>
             </a>
-            <a href="https://wa.me/919876543210" className="bg-green-500 text-white px-10 py-5 rounded-full font-black text-xl flex items-center space-x-4 shadow-xl hover:scale-105 transition active:scale-95">
+            <a href="https://wa.me/919004063606" className="bg-green-500 text-white px-10 py-5 rounded-full font-black text-xl flex items-center space-x-4 shadow-xl hover:scale-105 transition active:scale-95">
                <MessageSquare /> <span>WhatsApp</span>
             </a>
          </div>
