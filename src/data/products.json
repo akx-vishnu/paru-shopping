@@ -9,22 +9,78 @@
   },
   {
     "id": 2,
-    "name": "Fresh Banana",
-    "price": 60,
-    "category": "Fruits & Vegetables",
-    "image": "https://images.unsplash.com/photo-1571771894821-ad9958a3f747?auto=format&fit=crop&w=300&q=80",
-    "description": "Sweet local variety bananas."
-  },
-  {
-    "id": 3,
     "name": "Coconut Oil",
     "price": 180,
     "category": "Groceries",
-    "image": "https://images.unsplash.com/photo-1620980591763-7c593b45a005?auto=format&fit=crop&w=300&q=80",
+    "image": "/coconut_oil.png",
     "description": "Pure and natural coconut oil."
   },
   {
+    "id": 3,
+    "name": "Toor Dal",
+    "price": 110,
+    "category": "Groceries",
+    "image": "https://images.unsplash.com/photo-1585942488813-f9a6565152a5?auto=format&fit=crop&w=300&q=80",
+    "description": "High protein yellow pigeon peas."
+  },
+  {
     "id": 4,
+    "name": "Wheat Atta",
+    "price": 45,
+    "category": "Groceries",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=300&q=80",
+    "description": "100% whole wheat flour."
+  },
+  {
+    "id": 5,
+    "name": "Crystal Salt",
+    "price": 20,
+    "category": "Groceries",
+    "image": "https://images.unsplash.com/photo-1518110903823-7fa5f053258a?auto=format&fit=crop&w=300&q=80",
+    "description": "Natural sea crystal salt."
+  },
+  {
+    "id": 6,
+    "name": "Fresh Banana",
+    "price": 60,
+    "category": "Fruits & Vegetables",
+    "image": "/fresh_banana.png",
+    "description": "Sweet local variety bananas."
+  },
+  {
+    "id": 7,
+    "name": "Red Apple",
+    "price": 150,
+    "category": "Fruits & Vegetables",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6faa6?auto=format&fit=crop&w=300&q=80",
+    "description": "Crunchy and sweet red apples."
+  },
+  {
+    "id": 8,
+    "name": "Organic Tomatoes",
+    "price": 40,
+    "category": "Fruits & Vegetables",
+    "image": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?auto=format&fit=crop&w=300&q=80",
+    "description": "Farm fresh organic tomatoes."
+  },
+  {
+    "id": 9,
+    "name": "Fresh Spinach",
+    "price": 25,
+    "category": "Fruits & Vegetables",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?auto=format&fit=crop&w=300&q=80",
+    "description": "Rich in iron fresh spinach leaves."
+  },
+  {
+    "id": 10,
+    "name": "Potatoes",
+    "price": 30,
+    "category": "Fruits & Vegetables",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f82aba655?auto=format&fit=crop&w=300&q=80",
+    "description": "Versatile fresh potatoes."
+  },
+  {
+    "id": 11,
     "name": "Dishwash Liquid",
     "price": 45,
     "category": "Household Items",
@@ -32,7 +88,39 @@
     "description": "Strong grease-cutting formula."
   },
   {
-    "id": 5,
+    "id": 12,
+    "name": "Floor Cleaner",
+    "price": 85,
+    "category": "Household Items",
+    "image": "https://images.unsplash.com/photo-1584820927498-cafe0c16086f?auto=format&fit=crop&w=300&q=80",
+    "description": "Kills 99.9% germs, pleasant scent."
+  },
+  {
+    "id": 13,
+    "name": "Washing Powder",
+    "price": 140,
+    "category": "Household Items",
+    "image": "https://images.unsplash.com/photo-1626806787426-5910811b6325?auto=format&fit=crop&w=300&q=80",
+    "description": "Tough on stains washing detergent."
+  },
+  {
+    "id": 14,
+    "name": "Toilet Cleaner",
+    "price": 75,
+    "category": "Household Items",
+    "image": "https://images.unsplash.com/photo-1585834169733-4632b45e9992?auto=format&fit=crop&w=300&q=80",
+    "description": "Effective descaling toilet cleaner."
+  },
+  {
+    "id": 15,
+    "name": "Sponges",
+    "price": 30,
+    "category": "Household Items",
+    "image": "https://images.unsplash.com/photo-1585834280590-761cc2ee186c?auto=format&fit=crop&w=300&q=80",
+    "description": "Pack of 3 multi-purpose sponges."
+  },
+  {
+    "id": 16,
     "name": "Soap Bar",
     "price": 35,
     "category": "Personal Care",
@@ -40,11 +128,75 @@
     "description": "Gentle on skin, moisturizing."
   },
   {
-    "id": 6,
+    "id": 17,
+    "name": "Herbal Shampoo",
+    "price": 120,
+    "category": "Personal Care",
+    "image": "https://images.unsplash.com/photo-1631730486784-5456119f69ae?auto=format&fit=crop&w=300&q=80",
+    "description": "Nourishing aloe vera shampoo."
+  },
+  {
+    "id": 18,
+    "name": "Toothpaste",
+    "price": 50,
+    "category": "Personal Care",
+    "image": "https://images.unsplash.com/photo-1559591937-bea354228c2c?auto=format&fit=crop&w=300&q=80",
+    "description": "Complete care fluoride toothpaste."
+  },
+  {
+    "id": 19,
+    "name": "Body Wash",
+    "price": 180,
+    "category": "Personal Care",
+    "image": "https://images.unsplash.com/photo-1549482199-bc1ca6f58502?auto=format&fit=crop&w=300&q=80",
+    "description": "Refreshing citrus body gel."
+  },
+  {
+    "id": 20,
+    "name": "Hair Oil",
+    "price": 90,
+    "category": "Personal Care",
+    "image": "https://images.unsplash.com/photo-1608248593842-8021c60d9d24?auto=format&fit=crop&w=300&q=80",
+    "description": "Strengthening amla hair oil."
+  },
+  {
+    "id": 21,
     "name": "Masala Tea",
     "price": 120,
     "category": "Snacks & Beverages",
-    "image": "https://images.unsplash.com/photo-1594631252845-29fc45862143?auto=format&fit=crop&w=300&q=80",
+    "image": "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?auto=format&fit=crop&w=300&q=80",
     "description": "Authentic spice-infused tea."
+  },
+  {
+    "id": 22,
+    "name": "Potato Chips",
+    "price": 20,
+    "category": "Snacks & Beverages",
+    "image": "https://images.unsplash.com/photo-1566478989037-eade386338eb?auto=format&fit=crop&w=300&q=80",
+    "description": "Crispy salted potato chips."
+  },
+  {
+    "id": 23,
+    "name": "Mixed Biscuits",
+    "price": 40,
+    "category": "Snacks & Beverages",
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=300&q=80",
+    "description": "Assorted sweet cookies."
+  },
+  {
+    "id": 24,
+    "name": "Filter Coffee",
+    "price": 150,
+    "category": "Snacks & Beverages",
+    "image": "https://images.unsplash.com/photo-1559525839-b184a4d698c7?auto=format&fit=crop&w=300&q=80",
+    "description": "Rich aroma filter coffee powder."
+  },
+  {
+    "id": 25,
+    "name": "Fresh Juice",
+    "price": 60,
+    "category": "Snacks & Beverages",
+    "image": "https://images.unsplash.com/photo-1613478200581-2b63ab3b29c9?auto=format&fit=crop&w=300&q=80",
+    "description": "Refreshing fresh orange juice."
   }
 ]
