@@ -74,7 +74,7 @@ export default function Home() {
       <section className="relative overflow-hidden mx-3 sm:mx-4 mt-4 rounded-3xl shadow-2xl min-h-[320px] sm:min-h-[400px] md:min-h-[480px] flex">
         {/* background image */}
         <img
-          src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1400&q=85"
+          src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1400&q=85"
           alt="Fresh groceries"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -134,7 +134,8 @@ export default function Home() {
                 alt={cat.name}
                 className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
               />
-              <div className={`absolute inset-0 bg-gradient-to-t ${cat.color} opacity-60 group-hover:opacity-50 transition`} />
+              {/* simple bottom-only gradient – keeps image vivid, text readable */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
               <div className="absolute bottom-0 inset-x-0 p-2 sm:p-3">
                 <p className="text-white font-black text-xs sm:text-sm leading-tight drop-shadow-lg text-center">
                   {cat.name}
