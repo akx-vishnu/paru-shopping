@@ -38,7 +38,7 @@ function HeroSlider() {
       cta: "Shop Now",
       bg: "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 60%, #f1f5f9 100%)",
       accent: "#dca622",
-      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=85",
+      image: "/groceries-banner.png",
     },
   ];
 
